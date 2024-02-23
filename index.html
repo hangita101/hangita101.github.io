@@ -5,35 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
-    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <h1>Hello</h1>
-    <p>
-        This Site was Create using just HTML,CSS and JS.
-    </p>
-    <h3>Counter: <span id="counted"></span> </h3>
-    <button onclick="Icounter()">Increase</button>
-
-    <button onclick="Dcounter()">Decrease</button>
-
-    <script>
-        var c = document.getElementById('counted');
-        c.innerHTML = 0
-
-        function Icounter() {
-            var temp = parseInt(c.innerHTML);
-            temp += 1;
-            c.innerHTML = temp ;
-        }
-
-        function Dcounter() {
-            var temp = parseInt(c.innerHTML);
-            temp -= 1;
-            c.innerHTML = temp ;
-        }
-    </script>
 </body>
 
 </html>
